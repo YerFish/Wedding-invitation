@@ -5,47 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="/js/script.js"></script>
     <link rel="stylesheet" href="/css/style.css" />
-    <title>Приглашение на сбадьбу 17 ноября</title>
+    <title>Приглашение на свадьбу 17 ноября</title>
   </head>
 
   <body>
-    <header class="header">
-      <h3 class="header-h3-invitation">ПРИГЛАШЕНИЕ</h3>
-    </header>
+    <div class="wrapper">
+      <header class="header">
+        <h3 class="header-h3-invitation">ПРИГЛАШЕНИЕ</h3>
+      </header>
 
-    <section class="section-1-main">
-      <img src="/img/logo.svg" alt="logo" class="mail-logo" />
-      <article class="article-section-1">
-        <h3 class="section-1-h3-text">ПРИГЛАШАЕМ ВАС НА НАШУ СВАДЬБУ<br>
-            17 ноября 2023 <br>
-            пятница, 16.00 <br>
-            г. Москва, ул. Дольская, д.1</h3>
-        <h3 class="section-1-h3-timer-text">До самого ожидаемого события этого года осталось:</h3>
-      </article>
-      <div class="timer">
-        <div class="timer__items">
-          <div class="timer__item timer__days">00</div>
-          <div class="timer__item timer__hours">00</div>
-          <div class="timer__item timer__minutes">00</div>
-          <div class="timer__item timer__seconds">00</div>
-        </div>
-      </div>
-    </section>
+      <main class="main">
+        <section class="section-1-main">
+          <img src="/img/logo.svg" alt="logo" class="main-logo" />
+          <article class="article-section-1">
+            <h3 class="section-1-h3-text">
+              ПРИГЛАШАЕМ ВАС НА НАШУ СВАДЬБУ<br />
+              17 ноября 2023 <br />
+              пятница, 16.00 <br />
+              г. Москва, ул. Дольская, д.1
+            </h3>
+          </article>
+          <article class="article-section-1-timer">
+            <h3 class="section-1-h3-timer-text">
+              До самого ожидаемого события этого года осталось:
+            </h3>
 
-    <section class="section-2-guests">
-      <article class="article-dear-guest"></article>
-    </section>
+            <div class="timer">
+              <div class="timer__items">
+                <div class="timer__item timer__days">00</div>
+                <div class="timer__item timer__hours">00</div>
+                <div class="timer__item timer__minutes">00</div>
+                <div class="timer__item timer__seconds">00</div>
+              </div>
+            </div>
+          </article>
+        </section>
 
-    <section class="section-3-question"></section>
+        <section class="section-2-guests">
+          <article class="article-dear-guest"></article>
+        </section>
 
-    <section class="section-4-timetable"></section>
+        <section class="section-3-question"></section>
 
-    <div class="notification-about-materials"></div>
+        <section class="section-4-timetable"></section>
 
-    <section class="section-5-map"></section>
-    
-    <footer class="footer">
-      <span class="footer-span-tel">Виктория <a href="tel:+79850182929" class="tel">+7 985 018 2929</a></span>
-    </footer>
+        <div class="notification-about-materials"></div>
+
+        <section class="section-5-map">
+          <div class= "map" style="overflow: hidden">
+            <a href="https://yandex.ru/maps/org/muzey_zapovednik_tsaritsyno_operny_dom/58998215513/?utm_medium=mapframe&utm_source=maps"
+              style="color: #eee; font-size: 12px"
+              >Музей-заповедник Царицыно, Оперный дом</a>
+              <a href="https://yandex.ru/maps/213/moscow/category/museum/184105894/?utm_medium=mapframe&utm_source=maps"
+              style="color: #eee; font-size: 12px"
+              >Музей в Москве<br></a
+            ><iframe
+              src="https://yandex.ru/map-widget/v1/?ll=37.680500%2C55.614607&mode=search&oid=58998215513&ol=biz&z=17.02"
+              width="100%"
+              height="400"
+              frameborder="1"
+              allowfullscreen="true"
+            ></iframe>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <span class="footer-span-tel"
+          >Виктория
+          <a href="tel:+79850182929" class="tel">+7 985 018 2929</a></span
+        >
+      </footer>
+    </div>
   </body>
 </html>

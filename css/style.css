@@ -1,83 +1,144 @@
-* { 
-    box-sizing: border-box; 
-    font-family: 'JejuMyeongjo';
+* {
+  box-sizing: border-box;
+  font-family: "JejuMyeongjo";
+  margin: 0;
+  padding: 0;
 }
 @font-face {
-	font-family: 'JejuMyeongjo'; 
-	src: local('JejuMyeongjo'),
-		url(/fonts/jejumyeongjo/JejuMyeongjo-Regular.ttf); 
+  font-family: "JejuMyeongjo";
+  src: local("JejuMyeongjo"), url(/fonts/jejumyeongjo/JejuMyeongjo-Regular.ttf);
 }
+html,
 body {
-    margin: 0%;
+  height: 100%;
+  /* background-color: #E5E5E5;
+  margin-left: 100px;
+  margin-right: auto; */
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100%;
+  /* width: 1024px; */
+  width: 100%;
+  /* background-color: #ffffff */
+}
+.main {
+  flex: 1 0 auto;
+  height: 100%;
+  width: 1053px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-h1, h2, h3 {
-    font-weight: normal;
+h1,
+h2,
+h3 {
+  font-weight: normal;
 }
 h1 {
-    font-size: 70px;
+  font-size: 70px;
 }
 h2 {
-    font-size: 40px;
+  font-size: 40px;
 }
 h3 {
-    font-size: 32px;
+  font-size: 32px;
 }
 .header {
-    display: flex;
-    height: 107px;
-    border-bottom: 0.1px solid #5A677D;
-    margin: 1em auto;
-    box-shadow: 0 2px 4px #dbcccc;
-
+  display: flex;
+  height: 107px;
+  width: 100%;
+  border-bottom: 0.1px solid #5a677d;
+  margin: 0 0 1em auto;
+  box-shadow: 0 2px 4px #dbcccc;
 }
 
 .header-h3-invitation {
-    margin: auto;
+  margin: auto;
 }
+/* секция 1 */
+.section-1-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-/* -таймер- */
+}
+.main-logo {
+  height: 651px;
+  width: 804px;
+  margin-top: 149px;
+}
+.article-section-1 {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 136px;
+}
+.article-section-1-timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 166.33px;
+  width: auto;
+  justify-content: space-between;
+}
+/* таймер*/
+.timer {
+  height: 79.63px;
+  width: 474px;
+  display: flex;
+}
 .timer__items {
-    display: flex;
-    font-size: 48px;
-  }
-  .timer__item {
-    position: relative;
-    min-width: 60px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-bottom: 15px;
-    text-align: center;
-  }
-  .timer__item::before {
-    content: attr(data-title);
-    display: block;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    font-size: 14px;
-  }
-  .timer__item:not(:last-child)::after {
-    content: ':';
-    position: absolute;
-    right: -15px;
-  }
-  /* --- */
+  display: flex;
+  font-size: 48px;
+  width: 100%;  
+  justify-content: space-between;
+}
+.timer__item {
+  position: relative;
+  min-width: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.timer__item::before {
+  content: attr(data-title);
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  font-size: 24px;
+}
+.timer__item:not(:last-child)::after {
+  /* content: ":"; */
+  position: absolute;
+  right: -15px;
+}
+/* --- */
 
-  .footer {
-    height: 182px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px; 
-  }
-  .tel {
-    color: #000;
-    color: #817A6B;  
-  }
-  .footer-span-tel {
-    color: #817A6B;
-  }
+/* секция 5 с картой */
+.section-5-map {
+  width: 100vw;
+}
+.footer {
+  height: 182px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  flex: 0 0 auto;
+}
+.tel {
+  color: #000;
+  color: #817a6b;
+}
+.footer-span-tel {
+  color: #817a6b;
+}
