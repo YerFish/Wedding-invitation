@@ -53,6 +53,9 @@ h3 {
 p {
   font-size: 30px;
 }
+span {
+  font-size: 30px;
+}
 .header {
   display: flex;
   height: 107px;
@@ -218,12 +221,81 @@ p {
 }
 .hr {
   color: #5A677D;
-  height: 896px;
-  transform: rotate(90deg);
+  width: 896px;
+  height: 1px;
+  margin: 103px 0;
 
 }
-/* секция 5 с картой */
-.section-5-map {
+/* секция 4 */
+.section-4-timetable {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 690px;
+  width: 1388px;
+}
+.corner-leaf {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.section-4-article {
+  height: 619px;
+  width: 723px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.timetable {
+  height: 468px;
+  width: 723px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tabel-row {
+  display: flex;
+  justify-content: space-between;
+  height: 82px;
+  width: 100%;
+}
+.table-cell-right {
+  text-align: right;
+}
+
+.table-cell-left {
+  font-size: 25px;
+}
+.address {
+  color: #817A6B;
+  font-style: normal;
+  font-size: 25px;
+}
+/* секция 5 материалы */
+.section-5-notification {
+  height: 440px;
+  width: 1053px;
+  display: flex;
+  flex-direction: column;
+}
+.section-5-article-notification {
+  display: flex;
+  /* flex-direction: column;
+  align-content: center; */
+  height: 100%;
+  width: 100%;
+}
+.materials-a {
+  color: #817A6B;
+}
+.last-leaf {
+  height: 244px;
+  width: 375px;
+}
+/* секция 6 с картой */
+.section-6-map {
   width: 100vw;
 }
 .footer {
@@ -246,3 +318,7 @@ iframe {
   border: 1px solid rgb(255, 255, 255);
 }
 /* --- */
+
+/* форма */
+/* --- */
+
