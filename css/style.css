@@ -50,6 +50,9 @@ h2 {
 h3 {
   font-size: 32px;
 }
+p {
+  font-size: 30px;
+}
 .header {
   display: flex;
   height: 107px;
@@ -67,6 +70,8 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 1600px;
+  width: 1053px;
 
 }
 .main-logo {
@@ -78,6 +83,11 @@ h3 {
   text-align: center;
   margin-top: 70px;
   margin-bottom: 136px;
+  display: flex;
+  flex-direction: column;
+  height: 160px;
+  width: 645px;
+  justify-content: space-between;
 }
 .article-section-1-timer {
   display: flex;
@@ -87,6 +97,7 @@ h3 {
   width: auto;
   justify-content: space-between;
 }
+/* --- */
 /* таймер*/
 .timer {
   height: 79.63px;
@@ -122,7 +133,95 @@ h3 {
   right: -15px;
 }
 /* --- */
+/* секция 2 */
+.section-2-guests {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 1385px;
+  width: 1388px;
+}
+.branch-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.frame-section-2-thick {
+  height: 1270px;
+  width: 1000px;
+  background-color: #5A677D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.frame-section-2-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1142px;
+  width: 895.84px;
+  background-color: #ffffff;
+}
+.frame-section-2-thin {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 1036px;
+  width: 800px;
+  padding: 84.5px 110px;
+  border: 1px solid #A39F9F;
+  background-color: #fff;
+}
+.article-section-2-dear-guest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 330px;
+}
+.section-2-p-text {
+  font-size: 30px;
+  text-align: center;
+}
+.article-section-2-weare-waiting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 414px;
+}
+.section-2-h2-weare-waiting {
+  text-align: center;
+}
+.colors {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+.circle-1-left {
+  background: #D9D9D9;
+  border-radius: 50%;
+  height: 86px;
+  width: 86px;
+}
+.circle-2-middle {
+  background: #3C3C3C;
+  border-radius: 50%;
+  height: 86px;
+  width: 86px;
+}
+.circle-3-right {
+  background: #000;
+  border-radius: 50%;
+  height: 86px;
+  width: 86px;
+}
+.hr {
+  color: #5A677D;
+  height: 896px;
+  transform: rotate(90deg);
 
+}
 /* секция 5 с картой */
 .section-5-map {
   width: 100vw;
@@ -142,3 +241,8 @@ h3 {
 .footer-span-tel {
   color: #817a6b;
 }
+
+iframe {
+  border: 1px solid rgb(255, 255, 255);
+}
+/* --- */
