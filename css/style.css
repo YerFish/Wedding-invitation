@@ -11,18 +11,13 @@
 html,
 body {
   height: 100%;
-  /* background-color: #E5E5E5;
-  margin-left: 100px;
-  margin-right: auto; */
 }
 .wrapper {
   display: flex;
   align-items: center;
   flex-direction: column;
   min-height: 100%;
-  /* width: 1024px; */
   width: 100%;
-  /* background-color: #ffffff */
 }
 .main {
   flex: 1 0 auto;
@@ -96,16 +91,17 @@ span {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   height: 166.33px;
   width: auto;
   justify-content: space-between;
 }
-/* --- */
 /* таймер*/
 .timer {
   height: 79.63px;
   width: 474px;
   display: flex;
+  justify-content: center;
 }
 .timer__items {
   display: flex;
@@ -131,7 +127,6 @@ span {
   font-size: 24px;
 }
 .timer__item:not(:last-child)::after {
-  /* content: ":"; */
   position: absolute;
   right: -15px;
 }
@@ -336,5 +331,80 @@ iframe {
 /* --- */
 
 /* форма */
+.section-3-question {
+  width: 907px;
+}
+.form {
+ width: 100%;
+ height: 450px;
+}
+
 /* --- */
 
+
+/* для мобилок */
+@media screen and (max-width: 700px) {
+ 
+.main {
+  width: 345px;
+}
+.header {
+  height: 65px;
+}
+h1 {
+  font-size: 25px;
+}
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 20px;
+}
+p {
+  font-size: 14px;
+}
+span {
+  font-size: 14px;
+}
+/* секция 1 */
+.section-1-main {
+  height: 856px;
+  width: 326px;
+}
+.main-logo {
+  height: 353px;
+  width: 353px;
+  margin-top: 35px;
+}
+.article-section-1 {
+  margin-top: 33px;
+  margin-bottom: 45px;
+  height: 127px;
+  width: 353px;
+}
+.article-section-1-timer {
+  height: 100px;
+  align-items: normal;
+}
+/* таймер*/
+.timer {
+  height: 40px;
+  width: 244px;
+}
+.timer__items {
+  font-size: 25px; 
+}
+.timer__item {
+  min-width: 55px;
+  margin-left: 10px;
+  margin-right: 15px;
+  padding-bottom: 30px;
+}
+.timer__item::before {
+  font-size: 14px;
+}
+.timer__item:not(:last-child)::after {
+  right: -5px;
+}
+/* --- */
+}
