@@ -226,6 +226,12 @@ span {
   margin: 103px 0;
 
 }
+.hr-1 {
+  color: #5A677D;
+  width: 896px;
+  height: 1px;
+  margin-bottom: 103px;
+}
 /* секция 4 */
 .section-4-timetable {
   position: relative;
@@ -276,9 +282,11 @@ span {
 /* секция 5 материалы */
 .section-5-notification {
   height: 440px;
-  width: 1053px;
+  width: 723px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 .section-5-article-notification {
   display: flex;
@@ -287,24 +295,32 @@ span {
   height: 100%;
   width: 100%;
 }
-.materials-a {
-  color: #817A6B;
+.section-5-h2-notification {
+  text-align: center;
 }
 .last-leaf {
   height: 244px;
   width: 375px;
+  
 }
 /* секция 6 с картой */
 .section-6-map {
   width: 100vw;
+  height: 600px;
+}
+.map {
+  height: 100%;
 }
 .footer {
-  height: 182px;
+  height: 360px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-size: 30px;
   flex: 0 0 auto;
+  text-align: center;
+  padding: 67px 0;
 }
 .tel {
   color: #000;
