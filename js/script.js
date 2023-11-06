@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   // конечная дата, 17 ноября 2023 15:40
-  const deadline = new Date(2023, 10, 17, 16, 00);
+  const deadline = new Date(2023, 10, 17, 16);
   // id таймера
   let timerId = null;
   // склонение числительных
@@ -48,6 +48,3 @@ document.addEventListener("DOMContentLoaded", function () {
   // вызываем функцию countdownTimer каждую секунду
   timerId = setInterval(countdownTimer, 1000);
 });
-
-// форма ----------------------------------------------------------------------------------------
-
