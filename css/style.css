@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: "JejuMyeongjo";
-  src: local("JejuMyeongjo"), url(/fonts/jejumyeongjo/JejuMyeongjo-Regular.ttf);
+  src: local("JejuMyeongjo"), url(fonts/JejuMyeongjo-Regular.ttf);
 }
 
 html,
